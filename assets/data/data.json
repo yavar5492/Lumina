@@ -1,7 +1,6 @@
 {
     "dataItem":[
         {
-            "id": 1,
             "image": "../assets/image/items/pizza.jpeg",
             "alt": "",
             "title": "tuna tartare",
@@ -9,10 +8,9 @@
             "price": "45"
         },
         {
-            "id": 1,
             "image": "../assets/image/items/pizza.jpeg",
             "alt": "",
-            "title": "tuna tartare",
+            "title": "tna tartare",
             "description": "frad s;fksdf;sdkjfas;fja;",
             "price": "45"
         }
