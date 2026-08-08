@@ -1,4 +1,4 @@
-/* style.css */
+
 :root {
     --light-bg: #F8F9FA;
     --text-dark: #333333;
@@ -13,13 +13,24 @@
     src: url(../font/PlayfairDisplay-Medium.ttf);
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+    -webkit-text-fill-color: #f4da98c5 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    transition: background-color 9999s ease-in-out 0s !important;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 body {
     font-family: sans-serif;
     color: var(--dark-text);
@@ -41,7 +52,7 @@ img , svg{
 }
 ::-webkit-scrollbar-thumb {
     background-color: #e0bc62b4;
-  /* background: linear-gradient(to top, #e0bc62b4, transparent); */
+  
   border-radius: 10px;
   transition: background-color 3s ease;
 }
@@ -52,10 +63,10 @@ a {
     text-decoration: none;
 }
 
-/* ===== NAVBAR ===== */
+
 nav {
     margin-top: 20px;
-    /* padding: 0.4rem 2rem; */
+    
     background-color: #0f0f1056;
     backdrop-filter: blur(12px);
     box-shadow: 0 2px 20px #0F0F10;
@@ -74,10 +85,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .logo_imgae img {
     width: 120px;
 }
@@ -102,7 +113,105 @@ nav {
 .items a:hover {
     color: var(--gold-accent);
 }
-
+.menu_mobile{
+    position: fixed;
+    width: 100%;
+    top: -200%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 5555;
+    transition: all .3s ease;
+}
+.menu_mobile_items img{
+    width: 120px;
+}
+.menu_mobile_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_mobile_box{
+    padding: 10px;
+    background-color: #0f0f1056;
+    backdrop-filter: blur(16px);
+    box-shadow: 0 2px 20px #0F0F10;
+    border: 1px solid var(--gold-accent);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.menu_mobile_close_box{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.close_menu_mobile{
+    all: unset;
+    cursor: default;
+}
+.close_menu_mobile img{
+    width: 25px;
+}
+.menuitems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.menuitems a{
+    width: 150px;
+    cursor: default;
+    margin: 4px 0;
+    color: #e3e3e3;
+    font-size: 14px !important;
+    padding: 5px 20px;
+}
+.menuitems a:hover{
+    background-image: linear-gradient(90deg, #e0bc6200, #ab8d4234, #e0bc6200);
+}
+.menu_mobile_abut{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.menu_mobile_abut a{
+    background-color: #0f0f1056;
+    border: 1px solid var(--gold-accent);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 4px;
+}
+.menu_mobile_abut a img{
+    width: 20px;
+}
+.menu_mobile_show{
+    top: 20%;
+}
+.allbg{
+    position: fixed;
+    display: none;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 5554;
+    background-color: #0f0f1056;
+    backdrop-filter: blur(2px);
+    transition: all .3s ease;
+}
+.allbg_show{
+    display: block;
+}
+.allbg_show_tr{
+    opacity: 1;
+}
+.menuitems_active{
+    background-image: linear-gradient(90deg, #e0bc6200, #ab8d4234, #e0bc6200);
+    color: var(--gold-accent);
+}
 .items_active {
     color: var(--gold-accent);
     border-radius: 10px;
@@ -111,8 +220,9 @@ nav {
 
 .items_menu {
     all: unset;
-    display: none;
+    height: 26.65px;
     cursor: default;
+    display: none;
     color: var(--dark-text);
 }
 
@@ -120,7 +230,7 @@ nav {
     width: 35px;
 }
 
-/* ===== HEADER SECTION ===== */
+
 .header_section {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 70%), url('../image/backgruond_section_one.png') center/cover no-repeat;
     color: var(--dark-text);
@@ -144,7 +254,7 @@ nav {
 
 .header_section_box {
     max-width: 1200px;
-    /* margin: 0 auto; */
+    
     width: 100%;
     position: relative;
     z-index: 2;
@@ -158,6 +268,7 @@ nav {
     font-size: 4.5rem;
     font-weight: 300;
     line-height: 1.1;
+    margin-top: 40px;
     margin-bottom: 0.25rem;
 }
 
@@ -199,7 +310,7 @@ nav {
     background-color: #ffd363;
 }
 
-/* ===== FEATURES SECTION ===== */
+
 .features {
     padding: 5rem 2rem;
 }
@@ -251,7 +362,7 @@ nav {
     line-height: 1.6;
 }
 
-/* ===== CONTACT SECTION ===== */
+
 .Contact {
     padding: 5rem 2rem;
     display: flex;
@@ -342,7 +453,7 @@ nav {
     display: block;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
     background: url('../image/backgruond_footer.png') center/cover no-repeat;
     color: var(--dark-text);
@@ -408,9 +519,6 @@ footer {
     bottom: 0;
     z-index: 10;
 }
-.scroll_boxx{
-    /* margin-bottom: 40px; */
-}
 .scroll{
     width: 100px;
     bottom: 2px;
@@ -470,7 +578,7 @@ footer {
     opacity: 1;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 992px) {
     .features_box {
         grid-template-columns: repeat(2, 1fr);
@@ -502,7 +610,6 @@ footer {
         padding: 5rem 1.5rem 4rem;
         min-height: 60vh;
     }
-
     .hidden {
         display: none;
     }
@@ -564,6 +671,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -607,7 +715,7 @@ footer {
    MENU PAGE STYLES
    ============================================================ */
 
-/* ----- HEADER SECTION (قرمز موقتی برای دسکتاپ) ----- */
+
 .header {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 70%), url('../image/food_header_menu.png') center/cover no-repeat;
     padding: 0px 60px 0px;
@@ -648,12 +756,12 @@ footer {
 
 .header_box p {
     font-size: clamp(0.95rem, 1.5vw, 1.15rem);
-    color: var(--dark-muted);
+    color: var(--dark-text);
     font-weight: 300;
     line-height: 1.8;
 }
 
-/* ===== CATEGORY FILTER ===== */
+
 .Category {
     padding: 20px;
     text-align: center;
@@ -691,7 +799,7 @@ footer {
 .menu_explore{
     margin-top: 30px;
 }
-/* ===== SEARCH BAR ===== */
+
 .search {
     padding: 10px 20px 30px;
     text-align: center;
@@ -718,7 +826,7 @@ footer {
     font-size: 0.95rem;
     font-family: inherit;
     background: transparent;
-    color: #999;
+    color: #f4da98c5;
     font-weight: 300;
 }
 .search_box img {
@@ -729,7 +837,7 @@ footer {
 .response{
     color: #777;
 }
-/* ===== MENU GRID ===== */
+
 .menu {
     padding: 20px 20px 60px;
     max-width: 1300px;
@@ -750,7 +858,7 @@ footer {
     padding-bottom: 40px;
 }
 
-/* ===== MENU ITEM ===== */
+
 .menu_item {
     display: flex;
     gap: 20px;
@@ -766,6 +874,24 @@ footer {
 .menu_item:hover {
     transform: translateY(-4px);
     box-shadow: 0 0px 15px #0000008d;
+}
+.order-hint-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: rgba(224, 188, 98, 0.08);
+    border: 1px dashed var(--gold-accent, #e0bc62);
+    border-radius: 12px;
+    padding: 14px 24px;
+    margin: 10px auto 30px;
+    max-width: 500px;
+    transition: all 0.3s ease;
+}
+
+.order-hint-text:hover {
+    background: rgba(224, 188, 98, 0.15);
+    border-color: var(--gold-accent, #e0bc62);
 }
 
 .image_menu_item {
@@ -810,9 +936,280 @@ footer {
     color: var(--gold-accent, #e0bc62);
 }
 
-/* ===== RESPONSIVE ===== */
+/* ============================================================
+   HEAD CHEF SECTION (ABOUT PAGE)
+   ============================================================ */
 
-/* تبلت و موبایل - حذف رنگ قرمز */
+.Head_Chef {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.head_chef_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    background: #1B1B1B;
+    border-radius: 24px;
+    border: 1px solid rgba(224, 188, 98, 0.15);
+    overflow: hidden;
+    padding: 0;
+}
+
+.head_chef_box img {
+    width: 100%;
+    height: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    display: block;
+}
+
+.head_chef_text {
+    padding: 40px 50px 40px 20px;
+}
+
+.head_chef_text h2 {
+    font-family: "title", sans-serif;
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 300;
+    color: var(--dark-text);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.head_chef_text>p {
+    font-size: 1rem;
+    color: var(--dark-muted);
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.head_chef_text_box {
+    background: rgba(224, 188, 98, 0.06);
+    border-left: 3px solid var(--gold-accent);
+    padding: 20px 25px;
+    border-radius: 0 8px 8px 0;
+    max-width: 90%;
+}
+
+.head_chef_text_box span {
+    font-family: "title", sans-serif;
+    font-size: 1.1rem;
+    color: var(--gold-accent);
+    line-height: 1.7;
+    font-style: italic;
+    letter-spacing: 0.3px;
+}
+
+/* ============================================================
+   HEAD CHEF RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 992px) {
+    .head_chef_box {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .head_chef_box img {
+        max-height: 400px;
+        width: 100%;
+    }
+
+    .head_chef_text {
+        padding: 35px 30px 40px;
+    }
+
+    .head_chef_text h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Head_Chef {
+        padding: 50px 16px;
+    }
+
+    .head_chef_box {
+        border-radius: 16px;
+    }
+
+    .head_chef_box img {
+        max-height: 300px;
+    }
+
+    .head_chef_text {
+        padding: 25px 20px 30px;
+    }
+
+    .head_chef_text h2 {
+        font-size: 1.8rem;
+    }
+
+    .head_chef_text>p {
+        font-size: 0.92rem;
+    }
+
+    .head_chef_text_box {
+        padding: 16px 20px;
+        max-width: 100%;
+    }
+
+    .head_chef_text_box span {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .Head_Chef {
+        padding: 40px 12px;
+    }
+
+    .head_chef_box {
+        border-radius: 12px;
+    }
+
+    .head_chef_box img {
+        max-height: 220px;
+    }
+
+    .head_chef_text {
+        padding: 20px 16px 25px;
+    }
+
+    .head_chef_text h2 {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+
+    .head_chef_text>p {
+        font-size: 0.85rem;
+        margin-bottom: 20px;
+    }
+
+    .head_chef_text_box {
+        padding: 14px 16px;
+    }
+
+    .head_chef_text_box span {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+}
+
+
+/* ============================================================
+   HEADER ABOUT (ABOUT PAGE) - با گرادینت سمت چپ
+   ============================================================ */
+
+.header_about {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.5) 35%, rgba(0, 0, 0, 0) 65%), url('../image/backgruond_section_one_about.png') center/cover no-repeat;
+    padding: 0 60px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: var(--text-light, #F8F9FA);
+}
+
+.header_about::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background: linear-gradient(to top, #0F0F10, transparent);
+}
+
+.header_about_box {
+    max-width: 700px;
+    position: relative;
+    z-index: 2;
+    animation: animation 0.7s ease-out;
+}
+
+.header_about_box h1 {
+    font-family: "title", sans-serif;
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.header_about_box p {
+    font-size: clamp(1rem, 1.5vw, 1.15rem);
+    color: var(--dark-text);
+    font-weight: 300;
+    line-height: 1.9;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.header_about_box .explore_menu {
+    margin-top: 15px;
+}
+
+/* ============================================================
+   HEADER ABOUT RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 1024px) {
+    .header_about {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../image/backgruond_section_one_about.png');
+        padding: 100px 40px 70px;
+        min-height: 70vh;
+    }
+
+    .header_about_box p {
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+@media (max-width: 768px) {
+    .header_about {
+        padding: 90px 20px 60px;
+        min-height: 60vh;
+    }
+
+    .header_about_box h1 {
+        font-size: 2.2rem;
+        margin-top: 30px;
+    }
+
+    .header_about_box p {
+        font-size: 0.95rem;
+        line-height: 1.8;
+    }
+}
+
+@media (max-width: 480px) {
+    .header_about {
+        padding: 80px 16px 50px;
+        min-height: 55vh;
+    }
+
+    .header_about_box h1 {
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+
+    .header_about_box p {
+        font-size: 0.85rem;
+        line-height: 1.7;
+    }
+
+    .header_about_box .explore_menu {
+        padding: 12px 28px;
+        font-size: 0.8rem;
+    }
+}
+
+
 @media (max-width: 1024px) {
     .header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.175)), url(../image/food_header_menu.png);
@@ -836,9 +1233,10 @@ footer {
     }
     .header {
         padding: 90px 16px 50px;
-        min-height: auto;
+        min-height: 55vh;
     }
     .header_box h1 {
+        margin-top: 40px;
         font-size: 1.8rem;
     }
 

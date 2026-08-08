@@ -1,18 +1,396 @@
 {
-    "dataItem":[
-        {
-            "image": "../assets/image/items/pizza.jpeg",
-            "alt": "",
-            "title": "tuna tartare",
-            "description": "frad s;fksdf;sdkjfas;fja;",
-            "price": "45"
-        },
-        {
-            "image": "../assets/image/items/pizza.jpeg",
-            "alt": "",
-            "title": "tna tartare",
-            "description": "frad s;fksdf;sdkjfas;fja;",
-            "price": "45"
-        }
-    ]
+    "dataItem": [
+    {
+        "title": "Grilled Ribeye Steak",
+        "description": "Marbled beef ribeye grilled with garlic butter and rosemary, served with loaded baked potato and seasonal vegetables.",
+        "price": 34,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwqppZTvptAchujHAeiwvwzuC4xq4nJH93KOK_37oadw&s=10",
+        "alt": "Grilled Ribeye Steak",
+        "category": "food"
+    },
+    {
+        "title": "Filet Mignon",
+        "description": "Very tender beef fillet with green peppercorn and truffle mushroom sauce, served with creamy mashed potatoes.",
+        "price": 39,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQenu4jlihVPzbzRHvmrZCt8GpAgZEXMzjYDavXSkrOzA&s=10",
+        "alt": "Filet Mignon",
+        "category": "food"
+    },
+    {
+        "title": "Lamb Chops",
+        "description": "Four grilled lamb chops with mint and honey sauce, served with saffron rice and grilled vegetables.",
+        "price": 36,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx5FWtvBNCfyLjzAqDzSkFiNnYogn5Bbmvty5v2Tj_eA&s=10",
+        "alt": "Lamb Chops",
+        "category": "food"
+    },
+    {
+        "title": "Chicken Cordon Bleu",
+        "description": "Stuffed chicken breast with ham and Swiss cheese, breaded and baked with béchamel sauce.",
+        "price": 26,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVNBZKyR64ehsUdHx61TGhC7li2b1ArF1AHKFrh3ERHsdg_fipv1BzrkA&s=10",
+        "alt": "Chicken Cordon Bleu",
+        "category": "food"
+    },
+    {
+        "title": "Grilled Salmon Fillet",
+        "description": "Atlantic salmon with lemon-dill sauce, served with quinoa salad and grilled asparagus.",
+        "price": 28,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoqM_RKc9YKpJ4WUai0YtEUSvN3buBLOhf8kE_6POR7CbENE4qDrpvpm5g&s=10",
+        "alt": "Grilled Salmon Fillet",
+        "category": "food"
+    },
+    {
+        "title": "Sesame Crusted Tuna Steak",
+        "description": "Lightly seared tuna steak with sesame crust, soy-ginger sauce, served with wakame seaweed salad.",
+        "price": 30,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyPUv_pFjIa9zylVvZYFEopAEItO9qEuDOE4ZiFgdVUYU7Ebuh4Y3S0LxL&s=10",
+        "alt": "Sesame Crusted Tuna Steak",
+        "category": "food"
+    },
+    {
+        "title": "Shrimp Scampi Pasta",
+        "description": "Linguine pasta with shrimp, garlic butter sauce, lemon, and fresh parsley.",
+        "price": 24,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaOgC8pZUZsE9aNgy-PZJfi1UtBmWEOLLo8uJNxh3regi7e6h9w-wnq0k&s=10",
+        "alt": "Shrimp Scampi Pasta",
+        "category": "food"
+    },
+    {
+        "title": "Seafood Paella",
+        "description": "Spanish paella with shrimp, squid, mussels, chicken, saffron, and bell peppers.",
+        "price": 32,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1DIoq0pE5KjHnb5j8Ceq15bYTacm69aXjKcq555VK6pEJwoRXwEVpBM&s=10",
+        "alt": "Seafood Paella",
+        "category": "food"
+    },
+    {
+        "title": "Lobster Thermidor",
+        "description": "Lobster meat in a creamy white wine sauce, topped with grated cheese and broiled, served with seasoned rice.",
+        "price": 45,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSla_kIcvcdhZkxqA-cbNPpIBqoYX4ub1WDQmq6rRD2whQ8RU1U74anX78&s=10",
+        "alt": "Lobster Thermidor",
+        "category": "food"
+    },
+    {
+        "title": "Classic Beef Burger",
+        "description": "200g beef patty with cheddar cheese, bacon, lettuce, tomato, and special sauce, served with French fries.",
+        "price": 22,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgPu2Qp2mybWUlSMfwPMs-GmpI5FJjPvWBPya2q92PLg&s=10",
+        "alt": "Classic Beef Burger",
+        "category": "food"
+    },
+    {
+        "title": "Chicken Caesar Wrap",
+        "description": "Grilled chicken with romaine lettuce, Caesar dressing, and parmesan cheese in a tortilla wrap.",
+        "price": 18,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UuBBB_SZVe_cbMxpR0FoR_O4ZWngas3J5zKiMoN773ErFpuk3-oxWXcJ&s=10",
+        "alt": "Chicken Caesar Wrap",
+        "category": "food"
+    },
+    {
+        "title": "Margherita Pizza",
+        "description": "Italian-style pizza with tomato sauce, fresh mozzarella, and fresh basil (thin crust).",
+        "price": 16,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhEgcIby5iF0o1VMJS7n4dguURyA9elPamdEJo6jNEw&s",
+        "alt": "Margherita Pizza",
+        "category": "food"
+    },
+    {
+        "title": "Pepperoni Pizza",
+        "description": "Pizza with pepperoni, mushrooms, bell peppers, and mozzarella cheese.",
+        "price": 18,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnyeFUlIdnPfqEVzpsqDAs_hoO5cpM0T2q-bGUFuX1a84_20wDBuD3qjY&s=10",
+        "alt": "Pepperoni Pizza",
+        "category": "food"
+    },
+    {
+        "title": "Fettuccine Alfredo",
+        "description": "Fettuccine pasta with creamy parmesan sauce (add chicken or shrimp optional).",
+        "price": 20,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScozqTCoDWGZopK8oXaC4hfxmZZONm-EqimRA5eBhPM6CwYMktkKUore-O&s=10",
+        "alt": "Fettuccine Alfredo",
+        "category": "food"
+    },
+    {
+        "title": "Spaghetti Carbonara",
+        "description": "Spaghetti with egg, pecorino cheese, pancetta, and black pepper.",
+        "price": 21,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFDLbC0hzK5LIuCPqIJXXNCIAvwpOt6fP3VmL1UN8Q-vwI75nM339NfPQ&s=10",
+        "alt": "Spaghetti Carbonara",
+        "category": "food"
+    },
+    {
+        "title": "Lasagna Bolognese",
+        "description": "Layered lasagna with ground beef, béchamel sauce, and parmesan cheese.",
+        "price": 23,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc1MCgmQdnJ_vYSjGQQi0nGl_WF_M1oBkvzJDaSo6hlyY_lEJc4ndRDU6v&s=10",
+        "alt": "Lasagna Bolognese",
+        "category": "food"
+    },
+    {
+        "title": "Mushroom Risotto",
+        "description": "Italian risotto with wild mushrooms, truffle oil, and parmesan cheese.",
+        "price": 25,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNc_OJiQSzFjYPKk86f6FqrIyLLTeymVWFJSXqGCf9sW8eGmCMEz2Chhk&s=10",
+        "alt": "Mushroom Risotto",
+        "category": "food"
+    },
+    {
+        "title": "Pad Thai Shrimp",
+        "description": "Thai-style pad thai with shrimp, bean sprouts, peanuts, and tamarind sauce.",
+        "price": 22,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxA0R03eIlvxpJ9O-R6_13Jg6-Ne_kul972c7envqUiJcf-bOdWA0a_Y8x&s=10",
+        "alt": "Pad Thai Shrimp",
+        "category": "food"
+    },
+    {
+        "title": "Beef Stroganoff",
+        "description": "Sliced beef with sour cream and mushroom sauce, served with rice pilaf or pasta.",
+        "price": 27,
+        "image": "https://www.pocketfriendlyrecipes.com/wp-content/uploads/2024/11/Beef-Stroganoff-23.jpg",
+        "alt": "Beef Stroganoff",
+        "category": "food"
+    },
+    {
+        "title": "Chicken Tikka Masala",
+        "description": "Indian-style chicken tikka in creamy curry sauce, served with basmati rice and naan bread.",
+        "price": 24,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyOBqqdAe0W3gpI2-0mi0ecOTYolpbAwLk1uT9hmAhjA&s=10",
+        "alt": "Chicken Tikka Masala",
+        "category": "food"
+    },
+    {
+        "title": "Vegetable Curry",
+        "description": "Indian vegetable curry with cauliflower, chickpeas, potatoes, and coconut milk, served with rice.",
+        "price": 19,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlW6e-GKYh6hxSiYuofTQQoP4TtJiPtHIqby2qgYwTww&s=10",
+        "alt": "Vegetable Curry",
+        "category": "food"
+    },
+    {
+        "title": "Falafel Platter",
+        "description": "Falafel patties with hummus, tabbouleh salad, pita bread, and tahini sauce (vegan).",
+        "price": 17,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ_KBIaXpinMTu6YRlGA3KA7GgRdKzS-w-eM53Qfao4Q&s=10",
+        "alt": "Falafel Platter",
+        "category": "food"
+    },
+    {
+        "title": "Greek Moussaka",
+        "description": "Greek moussaka with eggplant, ground meat, and cheesy béchamel sauce.",
+        "price": 25,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyZT_gn534NODVpgcQW6h1C2YYI9zbxGHKHpH3FAsG9g&s=10",
+        "alt": "Greek Moussaka",
+        "category": "food"
+    },
+    {
+        "title": "Fish and Chips",
+        "description": "Breaded white fish served with thick-cut French fries and tartar sauce.",
+        "price": 22,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyB5_7lE2QSWCAIobLqrDyi8ABHOIaDdcqhHCXhE6xgA&s=10",
+        "alt": "Fish and Chips",
+        "category": "food"
+    },
+    {
+        "title": "BBQ Pork Ribs",
+        "description": "Slow-cooked pork ribs with special BBQ sauce, served with coleslaw salad.",
+        "price": 31,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTENOOw0cLJuaYBNeMm43Csom1nYrJSwftj6TzaIYwJYA&s=10",
+        "alt": "BBQ Pork Ribs",
+        "category": "food"
+    },
+    {
+        "title": "Roast Duck with Orange Sauce",
+        "description": "Half roast duck breast with orange-honey sauce, served with wild rice.",
+        "price": 33,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-DnmVqOiTv2Oaz23bo4cZYTZ1kJgcY0j0NlL8gyVzUQ&s=10",
+        "alt": "Roast Duck with Orange Sauce",
+        "category": "food"
+    },
+    {
+        "title": "Quinoa & Avocado Bowl",
+        "description": "Quinoa bowl with avocado, cherry tomatoes, boiled egg, and lemon dressing (vegan/vegetarian).",
+        "price": 16,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGgMztm34ks_SFrJKuQSRbRiTC10tsRdVm0Euy0QlEZw&s=10",
+        "alt": "Quinoa & Avocado Bowl",
+        "category": "food"
+    },
+    {
+        "title": "Stuffed Bell Peppers",
+        "description": "Bell peppers stuffed with rice, ground meat, and tomatoes, baked with cheese.",
+        "price": 20,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZT6BZjJCjj6ygftTmO2sYv0Imdg9cKxlKzZ3phJtCBw&s",
+        "alt": "Stuffed Bell Peppers",
+        "category": "food"
+    },
+    {
+        "title": "Mushroom & Truffle Pizza",
+        "description": "Vegetarian pizza with mushrooms, truffle, feta cheese, and basil.",
+        "price": 20,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkVsRM982tj70znQ1SdaeJGgh4v4x_0m0SXrVywCYj_A&s=10",
+        "alt": "Mushroom & Truffle Pizza",
+        "category": "food"
+    },
+    {
+        "title": "Salmon Teriyaki Bowl",
+        "description": "Rice bowl with teriyaki-glazed salmon, ginger, carrot, and Japanese pickled cucumber.",
+        "price": 26,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWSOsKbZp-oKLQBEOMZ1JNi_B9hm0MjynP706a3n2Ahw&s=10",
+        "alt": "Salmon Teriyaki Bowl",
+        "category": "food"
+    },
+    {
+        "title": "Classic Coca-Cola",
+        "description": "Chilled cola served in a glass bottle or glass with ice.",
+        "price": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Y_DU46dll4MObBjSj4H9cFTrG_45rXvic9V8DpNDaQ&s=10",
+        "alt": "Classic Coca-Cola",
+        "category": "beverage"
+    },
+    {
+        "title": "Sprite",
+        "description": "Lemon-lime soda with ice (caffeine-free).",
+        "price": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQekjKj20ZhqoOkDy6VYeL_qB9M__zFDRCcbo6zbQPOA&s=10",
+        "alt": "Sprite",
+        "category": "beverage"
+    },
+    {
+        "title": "Lemonade",
+        "description": "Fresh lemon juice with mint and sugar, served with ice.",
+        "price": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeemecxO4FNeEGKHSoG9ESR1w6sNUtVYEt7e8eVDzocw&s=10",
+        "alt": "Lemonade",
+        "category": "beverage"
+    },
+    {
+        "title": "Iced Tea Peach",
+        "description": "Cold brewed tea with peach flavor and lemon slice.",
+        "price": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu5Ws88-Oi6Ip9bEWh7RRmu0CXkf_XWW4mbDse55qUaw&s=10",
+        "alt": "Iced Tea Peach",
+        "category": "beverage"
+    },
+    {
+        "title": "Fresh Orange Juice",
+        "description": "Freshly squeezed orange juice (300 ml).",
+        "price": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDkbWO3mXEDWHhMeQYD9wDrFpHhL6Z60w5afWUVoIlQ&s=10",
+        "alt": "Fresh Orange Juice",
+        "category": "beverage"
+    },
+    {
+        "title": "Pineapple Juice",
+        "description": "Natural sweet pineapple juice served chilled.",
+        "price": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRngvkekUUWgB2qFCptmwBO10-vvwb1Mq7QoOnZDvx35w&s=10",
+        "alt": "Pineapple Juice",
+        "category": "beverage"
+    },
+    {
+        "title": "Cranberry Juice",
+        "description": "Tart cranberry juice with ice.",
+        "price": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw5AfYr4VgtPkbah2L-PW8Rc-k0YWLFw-89lqdXjv2XA&s=10",
+        "alt": "Cranberry Juice",
+        "category": "beverage"
+    },
+    {
+        "title": "Mango Smoothie",
+        "description": "Mango smoothie with Greek yogurt and honey.",
+        "price": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNgNbGkmJ0MuB62vNIPtPdAyzpWGZWegyxKVFv9b6Mcw&s=10",
+        "alt": "Mango Smoothie",
+        "category": "beverage"
+    },
+    {
+        "title": "Strawberry Banana Smoothie",
+        "description": "Strawberry and banana smoothie with almond milk.",
+        "price": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ownq5lN_1PGGe8pck4XYVjIjyj49u685Ve5JDTb2eQ&s=10",
+        "alt": "Strawberry Banana Smoothie",
+        "category": "beverage"
+    },
+    {
+        "title": "Virgin Mojito",
+        "description": "Non-alcoholic mojito with mint, lime, sugar, and soda water.",
+        "price": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlT6VZCo9S4aeC9o0sAPsn7Zd3JWhC1AItCkdGUltMzA&s=10",
+        "alt": "Virgin Mojito",
+        "category": "beverage"
+    },
+    {
+        "title": "Espresso (Single Shot)",
+        "description": "Strong and bitter Italian espresso (single shot).",
+        "price": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIWY8A-K5--qSmrSpnwX9Mwi8MacZi6JaECa9FkDDcOQ&s=10",
+        "alt": "Espresso (Single Shot)",
+        "category": "beverage"
+    },
+    {
+        "title": "Double Espresso",
+        "description": "Two shots of rich espresso.",
+        "price": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIWY8A-K5--qSmrSpnwX9Mwi8MacZi6JaECa9FkDDcOQ&s=10",
+        "alt": "Double Espresso",
+        "category": "beverage"
+    },
+    {
+        "title": "Cappuccino",
+        "description": "Cappuccino with thick milk foam and a sprinkle of cinnamon.",
+        "price": 5.5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXgscfmAgVZdy6_OveIpriTuCUZfCEEs0CaKy5Ixl4Q&s=10",
+        "alt": "Cappuccino",
+        "category": "beverage"
+    },
+    {
+        "title": "Latte Macchiato",
+        "description": "Steamed milk with a shot of espresso (latte style).",
+        "price": 5.5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe7iznfrrCIwxxijdrKtJPhKDyfpwgjRu6QiOKJXPrvA&s=10",
+        "alt": "Latte Macchiato",
+        "category": "beverage"
+    },
+    {
+        "title": "Flat White",
+        "description": "Australian-style coffee with steamed milk and espresso.",
+        "price": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqrdj1n58YZiTntDs-AkE9cmKO8FEOoRfEmIK61lNxw&s=10",
+        "alt": "Flat White",
+        "category": "beverage"
+    },
+    {
+        "title": "Mocha Coffee",
+        "description": "Mocha coffee with hot chocolate and whipped cream.",
+        "price": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpjNNzBTIxr9mvGs_7yFQjkWK85lQsydDZYLn2QILmqg&s=10",
+        "alt": "Mocha Coffee",
+        "category": "beverage"
+    },
+    {
+        "title": "Hot Chocolate",
+        "description": "Rich hot chocolate with whipped cream and marshmallows.",
+        "price": 5.5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmB7GNdD9cSd2iI8pHml-yxIPhvHzalMwzCKdy-tIcAQ&s=10",
+        "alt": "Hot Chocolate",
+        "category": "beverage"
+    },
+    {
+        "title": "Traditional Black Tea",
+        "description": "Hot black tea served with honey or sugar on the side.",
+        "price": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFb7Lzc5lMjzqTlXZO6nbg2y_R8jKtfkeIGWOMNzV-5Q&s",
+        "alt": "Traditional Black Tea",
+        "category": "beverage"
+    },
+    {
+        "title": "Jasmine Green Tea",
+        "description": "Green tea with jasmine aroma.",
+        "price": 4.5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabUICwJHza3s7v2ltDj4SDYJ0rJ1yMWB2hZln6bunK-w2pLkm7Ck_6MXu&s=10",
+        "alt": "Jasmine Green Tea",
+        "category": "beverage"
+    }
+]
 }

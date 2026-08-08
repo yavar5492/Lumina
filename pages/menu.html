@@ -10,55 +10,90 @@
     <link rel="stylesheet" href="../assets/style/style.css">
     <script src="../assets/src/index.js" type="module" defer></script>
 </head>
-<nav>
-        <div class="navbar_box">
-            <a href="../index.html" class="logo_imgae">
-                <img src="../assets/image/logo.png" alt="image_logo">
-            </a>
-            <div class="items">
-                <a href="../index.html">home</a>
-                <a class="items_active">menu</a>
-                <a href="">about</a>
+<body id="section_one">
+<header>
+    <nav>
+    <div class="navbar_box">
+        <a href="../index.html" class="logo_imgae">
+            <img src="../assets/image/logo.png" alt="image_logo">
+        </a>
+        <div class="items">
+            <a href="../index.html">home</a>
+            <a class="items_active">menu</a>
+            <a href="about.html">about</a>
+        </div>
+        <div class="items_menu">
+            <img src="../assets/icon/menu.png" alt="">
+        </div>
+    </div>
+</nav>
+<div class="allbg"></div>
+    <div class="menu_mobile">
+        <div class="menu_mobile_box">
+            <div class="menu_mobile_close_box">
+                <button class="close_menu_mobile">
+                <img src="../assets//icon/close.png" alt="close menu">
+            </button>
             </div>
-            <div class="items_menu">
-                <img src="../assets/icon/menu.png" alt="">
+            <div class="menu_mobile_items">
+                <a href="../index.html">
+                    <img src="../assets/image/logo.png" alt="logo">
+                </a>
+                <div class="menuitems">
+                    <a href="../index.html">Home</a>
+                    <a class="menuitems_active">Menu</a>
+                    <a href="about.html">About</a>
+                </div>
+                <div class="menu_mobile_abut">
+                    <a target="_blank" href="https://www.instagram.com/yavar_mohmadi/">
+                            <img width="45px" src="../assets/icon/instagram.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://t.me/yavarM5492">
+                            <img width="45px" src="../assets/icon/telegram.png" alt="">
+                        </a>
+                        <a target="_blank" href="mailto:yavar3424@gmail.com">
+                            <img width="45px" src="../assets/icon/email.png" alt="">
+                        </a>
+                </div>
             </div>
         </div>
-    </nav>
-<body id="section_one">
-    
+    </div>
+</header>
+
     <main>
         <section class="header">
             <div class="header_box">
                 <h1>A Culinary Journey Like No Other</h1>
                 <p>
-                    Discover a curated selection of exquisite dishes, for perfection. crafted with the finest ingredients and a passion for perfection.
+                    Discover a curated selection of exquisite dishes, for perfection. crafted with the finest
+                    ingredients and a passion for perfection.
                 </p>
+                <a href="../index.html" class="explore_menu menu_explore">home</a>
             </div>
-            <div class="scroll_box">
-                <img class="scroll" src="../assets/icon/iconScroll.png" alt="">
-            </div>
-        </section>
-        <section id="search" class="search">
-            <div class="search_box">
-                <input type="text" placeholder="search to menu" name="search_box" id="search_box">
-                <img src="../assets/icon/search.png" alt="">
+            <div class="scroll_box scroll_boxx">
+                <img class="scroll scrol" src="../assets/icon/iconScroll.png" alt="">
             </div>
         </section>
-        <section class="menu">
-            <h2>menu</h2>
-            <div class="menu_box">
-                <div class="menu_item">
-                    <div class="image_menu_item">
-                        <img src="../assets/image/items/pizza.jpeg" alt="">
-                    </div>
-                    <div class="texts_menu_item">
-                        <h3>tuna tartare</h3>
-                        <p>frad dkde ledi didls sisd  adada kd</p>
-                        <span>$24</span>
-                    </div>
+        <section class="menuAll">
+            <section class="Category">
+                <div class="category_box">
+                    <button id="categoryFood" class="active" data-category="food">Foods</button>
+                    <button id="categoryBeverage" data-category="beverage">Beverages</button>
                 </div>
-            </div>
+            </section>
+            <section id="search" class="search">
+                <div class="search_box">
+                    <input type="text" placeholder="search to menu" name="search_box" id="search_box">
+                    <img src="../assets/icon/search.png" alt="">
+                </div>
+            </section>
+            <section class="menu">
+                <h2>menu</h2>
+                <p class="order-hint-text">Click on any item to order via message</p>
+                <div class="menu_box">
+                    <!-- menuitems -->
+                </div>
+            </section>
         </section>
     </main>
     <footer>
@@ -71,7 +106,7 @@
                 <div class="links_items">
                     <a href="../index.html">Home</a>
                     <a href="#section_one">menu</a>
-                    <a href="">about</a>
+                    <a href="about.html">about</a>
                 </div>
             </div>
             <div class="footer_items hidden">

@@ -1,5 +1,13 @@
-export const loader = document.querySelectorAll(".features_item , .contact_items_right , .contact_items_left , .footer_box , .menu_item , .search_box , .category_box");
+export const loader = document.querySelectorAll(".features_item , .contact_items_right , .contact_items_left , .footer_box , .menu_item , .search_box , .category_box , .Head_Chef");
 export const menuBox = document.querySelector(".menu_box");
 export const searchBox = document.querySelector("#search_box");
 export const inputSearch = document.querySelector("#search_box");
 export const search_box = document.querySelector(".search_box");
+export const foodBtn = document.getElementById('categoryFood');
+export const beverageBtn = document.getElementById('categoryBeverage');
+export const categoryBtns = document.querySelectorAll('.category_box button');
+export const btnMenuMobile = document.querySelector(".items_menu");
+export const MenuMobile = document.querySelector(".menu_mobile");
+export const AllBG = document.querySelector(".allbg");
+export const btnMenuMobileClose = document.querySelector(".close_menu_mobile");
+export const closelink = document.querySelector(".menuitems_active");
